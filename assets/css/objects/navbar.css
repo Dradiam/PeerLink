@@ -2,15 +2,6 @@
     @import url(../themes/themes-master.css);
 
 
-    .navbar-container {
-
-        position: relative;
-
-        background-color: rgba(0, 0, 0, 0.45);
-        backdrop-filter: blur(30px);
-
-    }
-
     .navbar {
 
         /* border-bottom: 1px solid var(--borderColor); */
