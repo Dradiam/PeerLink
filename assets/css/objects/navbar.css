@@ -1,0 +1,33 @@
+
+    @import url(../themes/themes-master.css);
+
+
+    .navbar-container {
+
+        position: relative;
+
+        background-color: rgba(0, 0, 0, 0.45);
+        backdrop-filter: blur(30px);
+
+    }
+
+    .navbar {
+
+        /* border-bottom: 1px solid var(--borderColor); */
+
+        display: flex;
+
+        height: 7vh;
+        width: 100vw;
+
+        color: white;
+
+        padding: 1em;
+
+        background: rgba(0, 0, 0, 0.45);
+        backdrop-filter: blur(30px);
+        
+        position: relative;
+
+
+    }

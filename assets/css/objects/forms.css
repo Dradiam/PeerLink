@@ -1,0 +1,67 @@
+
+    @import url(../themes/themes-master.css);
+
+
+    input[type=text], input[type=password] {
+
+        width: 20vw;
+        height: 5vh;
+        
+        padding: 5px;
+
+        border: 1px solid var(--focusColor);
+
+        border-radius: 6px;
+
+        background: transparent;
+        color: var(--userDefinedFontColor);
+
+    }
+
+    input[type=button] {
+
+        width: 10vw;
+        height: 5vh;
+
+        background: var(--userDefinedAccentColor);
+        color: var(--altFontColor);
+
+        border: none;
+        border-radius: 6px;
+
+    }
+
+
+    input[type=button]#GoogleAuth{
+        
+        background: #c4c4c4;
+        color: #131313;
+
+        width: 20vw;
+
+    }
+
+    input[type=button]#XAuth{
+
+        background: #191919;
+        color: #ececec;
+
+        width: 20vw;
+        
+    }
+
+    input[type=button]#FBAuth{
+
+        background: #2172ff;
+        color: #ececec;
+
+        width: 20vw;
+        
+    }
+    
+    input[type=text]:focus, input[type=password]:focus {
+
+        outline: none;
+        border: 1px solid var(--focusColor);
+
+    }

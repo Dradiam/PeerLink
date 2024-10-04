@@ -1,0 +1,28 @@
+
+    @import url(../objects/objects-master.css);
+    @import url(../themes/themes-master.css);
+    
+    * {
+
+        margin: 0;
+        padding: 0;
+    
+        box-sizing: border-box;
+
+    }
+
+    body {
+
+        background: var(--userDefinedBackgroundImage) rgba(0, 0, 0, 0.60);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-blend-mode: overlay;
+
+        width: 100vw;
+        height: 100vh;
+
+        overflow-y: auto;
+
+    }

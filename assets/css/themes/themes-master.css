@@ -1,0 +1,39 @@
+
+    :root {
+
+        /* LIGHT THEME */
+
+        --lightThemeBackgroundColor: #ececec;
+        --lightThemeFontColor: #131313;
+        --lightThemeAccentColor: #c844a0;
+        --lightThemeBackgroundImage: url(../../images/cornell.jpg);
+        --lightThemeLogo: url(../../graphics/logo.svg);
+
+
+        /* DARK THEME */
+
+        --darkThemeBackgroundColor: #131313;
+        --darkThemeFontColor: #ececec;
+        --darkThemeAccentColor: #c844a0;
+        --darkThemeBackgroundImage: url(../../images/cornell-night.jpg);
+        --darkThemeLogo: url(../../graphics/logo-dark.svg);
+
+
+        /* USER-DEFINED THEME */
+
+        --userDefinedBackgroundColor: var(--darkThemeBackgroundColor);
+        --userDefinedFontColor: var(--darkThemeFontColor);
+        --userDefinedAccentColor: var(--darkThemeAccentColor);
+        --userDefinedBackgroundImage: var(--darkThemeBackgroundImage);
+        --userDefinedLogo: var(--darkThemeLogo);
+
+    }
+
+
+    :root {
+
+        --focusColor: gray;
+        --altFontColor: #ececec;
+        --borderColor: gray;
+
+    }
