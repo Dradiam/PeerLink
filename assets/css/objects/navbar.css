@@ -1,12 +1,12 @@
 
     @import url(../themes/themes-master.css);
 
-
     .navbar {
 
         /* border-bottom: 1px solid var(--borderColor); */
 
         display: flex;
+
 
         height: 7vh;
         width: 100vw;
@@ -17,8 +17,35 @@
 
         background: rgba(0, 0, 0, 0.45);
         backdrop-filter: blur(30px);
-        
-        position: relative;
 
+    }
+
+    .navbar-content {
+
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .navbar-elements {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .navbar-elements#left {
+
+        border-left: 1px solid var(--borderColor);
+        padding-left: 10px;
+
+    }
+
+    .navbar-elements#right {
+
+        border-right: 1px solid var(--borderColor);
+        padding-right: 10px;
 
     }
