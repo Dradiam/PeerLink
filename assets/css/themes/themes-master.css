@@ -1,5 +1,5 @@
 
-    /* @import url(../../fonts/fonts-master.css); */
+    @import url('../../fonts/fonts-master.css');
     
     :root {
 
@@ -9,7 +9,6 @@
         --lightThemeFontColor: #131313;
         --lightThemeAccentColor: #c844a0;
         --lightThemeBackgroundImage: url(../../images/cornell.jpg);
-        --lightThemeDefaultFont: 'FigtreeLight';
         --lightThemeLogo: url(../../graphics/logo.svg);
 
 
@@ -19,7 +18,6 @@
         --darkThemeFontColor: #ececec;
         --darkThemeAccentColor: #c844a0;
         --darkThemeBackgroundImage: url(../../images/cornell-night.jpg);
-        --darkThemeDefaultFont: 'Consolas';
         --darkThemeLogo: url(../../graphics/logo-dark.svg);
 
 

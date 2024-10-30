@@ -1,7 +1,7 @@
 
 @font-face {
 
-    font-family: "Figtree Light";
+    font-family: FigtreeLight;
     src: url('FigtreeLight.ttf') sans-serif;
     font-weight: normal;
 
@@ -10,7 +10,7 @@
 
 @font-face {
 
-    font-family: "Figtree Light Italic";
+    font-family: FigtreeLightItalic;
     src: url('FigtreeLightItalic.ttf') sans-serif;
     font-weight: normal;
 

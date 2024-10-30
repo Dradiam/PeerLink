@@ -1,6 +1,7 @@
 
-@import url(../objects/objects-master.css);
-@import url(../themes/themes-master.css);
+@import url('../objects/objects-master.css');
+@import url('../themes/themes-master.css');
+@import url('../../fonts/fonts-master.css');
 
 * {
 
@@ -8,6 +9,8 @@
     padding: 0;
 
     box-sizing: border-box;
+    
+    font-family: FigtreeLight;
 
 }
 
