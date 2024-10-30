@@ -45,7 +45,7 @@
 
     .navbar-elements#right {
 
-        border-right: 1px solid var(--borderColor);
+        /* border-right: 1px solid var(--borderColor); */
         padding-right: 10px;
 
     }

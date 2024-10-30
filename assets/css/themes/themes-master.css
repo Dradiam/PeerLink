@@ -1,4 +1,6 @@
 
+    /* @import url(../../fonts/fonts-master.css); */
+    
     :root {
 
         /* LIGHT THEME */
@@ -7,6 +9,7 @@
         --lightThemeFontColor: #131313;
         --lightThemeAccentColor: #c844a0;
         --lightThemeBackgroundImage: url(../../images/cornell.jpg);
+        --lightThemeDefaultFont: 'FigtreeLight';
         --lightThemeLogo: url(../../graphics/logo.svg);
 
 
@@ -16,6 +19,7 @@
         --darkThemeFontColor: #ececec;
         --darkThemeAccentColor: #c844a0;
         --darkThemeBackgroundImage: url(../../images/cornell-night.jpg);
+        --darkThemeDefaultFont: 'Consolas';
         --darkThemeLogo: url(../../graphics/logo-dark.svg);
 
 
@@ -25,6 +29,7 @@
         --userDefinedFontColor: var(--darkThemeFontColor);
         --userDefinedAccentColor: var(--darkThemeAccentColor);
         --userDefinedBackgroundImage: var(--darkThemeBackgroundImage);
+        --userDefinedDefaultFont: var(--darkThemeDefaultFont);
         --userDefinedLogo: var(--darkThemeLogo);
 
     }

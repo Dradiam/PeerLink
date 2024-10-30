@@ -1,6 +1,7 @@
 
     @import url(../objects/objects-master.css);
     @import url(../themes/themes-master.css);
+    @import url(../../fonts/fonts-master.css);
     
     * {
 
@@ -24,5 +25,7 @@
         height: 100vh;
 
         overflow-y: auto;
+
+        font-family: var(--userDefinedDefaultFont);
 
     }
