@@ -10,7 +10,8 @@
     
         box-sizing: border-box;
 
-        font-family: FigtreeLight;
+        font-family: 'FigtreeLight';
+        font-size: .95rem;
 
     }
 
