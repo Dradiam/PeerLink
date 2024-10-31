@@ -1,8 +1,8 @@
 
     @font-face {
 
-        font-family: GothamBold;
-        src: url('GothamBold.ttf');
+        font-family: 'GothamBold';
+        src: url('GothamBold.ttf') format('truetype');
         font-weight: normal;
 
     }
