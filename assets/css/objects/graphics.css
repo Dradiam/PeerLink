@@ -1,6 +1,8 @@
 
+    @import url('../themes/themes-master.css');
+    
     svg {
 
-        
+        fill: var(--userDefinedIconColor);
 
     }
